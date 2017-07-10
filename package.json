@@ -1,0 +1,16 @@
+{
+  "name": "slack-mtg",
+  "version": "1.0.0",
+  "description": "Slack command for Magic the Gathering cards",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jonathan Daggerhart",
+  "dependencies": {
+    "axios": "^0.13.1",
+    "ws": "^1.1.1",
+		"request": "2.72.0",
+    "synchronize": "^0.9.14",
+    "httpdispatcher":"*"
+  }
+}
