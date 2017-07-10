@@ -6,3 +6,7 @@ On the [Slash Commands](https://slack.com/apps/A0F82E8CA-slash-commands) page se
 
 ## Step 2: Copy the Command Token
 Copy the token value for the Slash Command into the `.env` file in your  project. You'll see an entry for SLACK_TOKEN. Paste the token against that variable name.
+
+## Screenshot
+
+![screenshot](assets/screenshot.png)
