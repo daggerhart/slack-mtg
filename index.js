@@ -12,7 +12,7 @@ slack.on('/mtg', payload => {
   
   let user_id = payload.user_id;
   let response_url = payload.response_url;
-  let cardId = db.cardIdFromName('Spirit of the Night');
+  let cardId = db.cardIdFromName(payload.text);
   
   db.getCardData(cardId, function(card){
     let edition = card.editions[Math.floor(Math.random()*card.editions.length)];
